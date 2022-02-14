@@ -1,6 +1,6 @@
 CONFIG_MODULE_SIG=n
 
-obj-m := simple_driver.o
+obj-m := chardev.o
 
 SRC := $(shell pwd)
 KERNEL_SRC ?= /lib/modules/$(shell uname -r)/build
